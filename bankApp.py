@@ -29,5 +29,11 @@ class BankAccount{
     this.customerId=customerId;
     }
     
-    #Void statements needed after this
+    #2.2.3 Deposit Amount: Balance Update
+  void deposit(double amount){
+      if(amount!=0){
+          bal+=amount;
+          prevTrans=amount;
+      }
+  }
 }
